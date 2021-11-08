@@ -1,4 +1,4 @@
-package EverydayArithmetic.LK120;
+package EverydayArithmetic;
 
 import java.util.List;
 /**
@@ -13,7 +13,7 @@ import java.util.List;
  * 首先初始化dp数组的值为triangle最后一行的所有数据，然后将triangle一行一行往上遍历，每次将遍历的那个数据对应的dp位置的值更新为改点数据加上下一行正下方和下一行右下方的数据的最小值
  *
  * */
-public class 三角形最小路径和 {
+public class LK120三角形最小路径和 {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
         int dp[] = new int[n];

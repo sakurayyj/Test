@@ -35,11 +35,4 @@ public class LK109有序链表转为二叉搜索树 {
     }
 
 }
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
 
